@@ -3,26 +3,76 @@
   margin: 0;
   padding: 0; }
 
-body {
-  width: 100vw; }
+img {
+  max-width: 100%; }
+
+.bar {
+  background-color: white;
+  height: 3px;
+  width: 100%; }
 
 .brand-title {
   font-family: "Alata", sans-serif;
-  font-size: 1.5rem;
-  margin: 2rem 0 0 1.5rem; }
+  font-size: 1.8rem;
+  margin-top: 2rem; }
 
-.display-none.active {
-  display: none; }
+.container {
+  margin: 0 auto;
+  width: 88%; }
+
+.container-narrow {
+  margin: 0 auto;
+  width: 88%; }
+
+.container-narrow p {
+  color: #8c8c8c;
+  font-family: "Alata", sans-serif;
+  line-height: 1.5;
+  margin-top: 1.3rem;
+  margin-bottom: 5rem;
+  text-align: center; }
 
 .header {
-  background-color: black;
-  background-size: contain;
-  background-repeat: no-repeat;
-  min-height: 100vh; }
+  margin-bottom: 5rem; }
 
-.header.active {
-  background-image: none;
-  background-color: black; }
+.header-contents {
+  position: absolute; }
+
+.header-contents.active {
+  background-color: black;
+  min-height: 100vh;
+  position: absolute;
+  width: 100vw; }
+
+.image-grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  gap: 1.3rem; }
+
+.image-grid > div {
+  position: relative; }
+
+.image-text {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: 1.4rem;
+  left: 1.4rem;
+  width: 35%; }
+
+.main-heading {
+  border: 2px solid white;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-top: 10rem;
+  padding: 1.4rem; }
+
+.main-heading.active {
+  display: none; }
 
 .navbar {
   color: white;
@@ -39,12 +89,22 @@ body {
   color: white;
   font-family: "Josefin Sans", sans-serif;
   display: block;
-  padding: 1rem;
+  padding: 1rem 0;
   text-decoration: none; }
 
 .navbar-links ul {
-  margin: 5rem 0 0 .5rem;
-  list-style: none; }
+  list-style: none;
+  margin-top: 5rem; }
+
+.non-header.active {
+  display: none; }
+
+.secondary-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 2.7rem;
+  text-align: center; }
 
 .toggle-btn {
   display: flex;
@@ -53,7 +113,7 @@ body {
   height: 20px;
   position: absolute;
   right: 1.5rem;
-  top: 2.3rem;
+  top: 2.7rem;
   width: 30px; }
 
 .toggle-btn.active .bar:nth-child(2) {
@@ -65,29 +125,13 @@ body {
 .toggle-btn.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg); }
 
-.bar {
-  background-color: white;
-  height: 3px;
-  width: 100%; }
-
-.main-heading {
-  font-size: 2.5rem;
-  font-family: "Josefin Sans", sans-serif;
-  color: white;
-  border: 2px solid white;
-  padding: 1.4rem;
-  margin: 10rem 1.5rem; }
-
-.main-heading.active {
-  display: none; }
-
-@media (min-width: 426px) {
+@media (min-width: 769px) {
   .toggle-btn {
     display: none; }
   .navbar {
-    justify-content: space-between;
     align-items: flex-end;
-    flex-direction: row; }
+    flex-direction: row;
+    justify-content: space-between; }
   .navbar-links {
     display: flex; }
   .navbar-links ul {
