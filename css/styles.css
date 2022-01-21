@@ -32,6 +32,38 @@ img {
   margin-bottom: 5rem;
   text-align: center; }
 
+.creations-section {
+  padding-bottom: 10rem; }
+
+.footer {
+  background-color: black;
+  color: white;
+  font-family: "Alata", sans-serif;
+  padding: 2.5rem 0;
+  text-align: center; }
+
+.footer-brand-title {
+  font-size: 1.8rem; }
+
+.footer-copyright {
+  color: #8c8c8c;
+  font-size: .8rem; }
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  justify-content: space-between;
+  height: 11rem;
+  margin: 2rem 0; }
+
+.footer-social-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto .7rem auto;
+  width: 7.5rem;
+  font-size: 1.5rem; }
+
 .header {
   margin-bottom: 5rem; }
 
