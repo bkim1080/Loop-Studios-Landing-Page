@@ -44,6 +44,13 @@ img {
   margin-top: 1.7rem;
   gap: 1.3rem; }
 
+.creation-imgs img {
+  transition: 0.5s;
+  cursor: pointer; }
+
+.creation-imgs img:hover {
+  transform: scale(1.05); }
+
 .creation-imgs > div {
   position: relative; }
 
