@@ -2,8 +2,8 @@ $color-primary: hsl(0, 0%, 0%);
 $color-secondary: hsl(0, 0%, 55%);
 $color-light: hsl(0, 0%, 100%);
 $color-dark: hsl(0, 0%, 41%);
-$font-family1: "Alata", sans-serif;
-$font-family2: "Josefin Sans", sans-serif;
+$font-family-secondary: "Alata", sans-serif;
+$font-family-primary: "Josefin Sans", sans-serif;
 
 *,
 *::after,
@@ -28,9 +28,14 @@ img {
 }
 
 .brand-title {
-	font-family: $font-family1;
+	font-family: $font-family-secondary;
 	font-size: 1.8rem;
 	margin-top: 2rem;
+}
+
+.brand-title a {
+	color: $color-light;
+	text-decoration: none;
 }
 
 .container {
@@ -46,7 +51,7 @@ img {
 
 .container-narrow p {
 	color: $color-secondary;
-	font-family: $font-family1;
+	font-family: $font-family-secondary;
 	line-height: 1.5;
 	margin-top: 1.3rem;
 	margin-bottom: 5rem;
@@ -57,11 +62,11 @@ img {
 	display: flex;
 	flex-direction: column;
 	margin-top: 1.7rem;
-	gap: 1.3rem;
+	gap: 20px;
 }
 
 .creation-imgs img {
-	transition: 0.5s;
+	transition: 0.4s;
 	cursor: pointer;
 }
 
@@ -84,13 +89,13 @@ img {
 .flex {
 	display: flex;
 	flex-direction: column;
-	gap: 3em;
+	gap: 40px;
 }
 
 .footer {
 	background-color: $color-primary;
 	color: $color-light;
-	font-family: $font-family1;
+	font-family: $font-family-secondary;
 	padding: 2.5rem 0;
 	text-align: center;
 }
@@ -127,6 +132,10 @@ img {
 	width: 7.5rem;
 }
 
+.footer-social-links i {
+	color: $color-light;
+}
+
 .header {
 	margin-bottom: 5rem;
 }
@@ -141,7 +150,6 @@ img {
 	background-color: $color-primary;
 	min-height: 100vh;
 	position: absolute;
-	width: 100vw;
 }
 
 .header-img-desktop {
@@ -150,21 +158,21 @@ img {
 
 .img-text {
 	background: rgba(0, 0, 0, 0.404);
-	bottom: 1rem;
+	bottom: 16px;
 	color: $color-light;
-	font-family: $font-family2;
+	font-family: $font-family-primary;
 	font-size: 1.5rem;
+	left: 16px;
+	max-width: 9rem;
 	padding: 0.5rem;
 	position: absolute;
-	left: 1rem;
-	max-width: 9rem;
 }
 
 .main-heading {
 	border: 2px solid $color-light;
 	color: $color-light;
-	font-family: $font-family2;
-	font-size: 2.5rem;
+	font-family: $font-family-primary;
+	font-size: 2.2rem;
 	font-weight: 300;
 	margin-top: 9.5rem;
 	padding: 0.6em;
@@ -194,7 +202,7 @@ img {
 
 .navbar-links a {
 	color: $color-light;
-	font-family: $font-family2;
+	font-family: $font-family-primary;
 	display: block;
 	padding: 1rem 0;
 	text-decoration: none;
@@ -210,7 +218,7 @@ img {
 }
 
 .secondary-heading {
-	font-family: $font-family2;
+	font-family: $font-family-primary;
 	font-size: 2rem;
 	font-weight: 300;
 	text-align: center;
@@ -222,7 +230,7 @@ img {
 	justify-content: space-between;
 	height: 20px;
 	position: absolute;
-	right: 1.5rem;
+	right: 7.5vw;
 	top: 2.7rem;
 	width: 30px;
 }
@@ -239,7 +247,7 @@ img {
 	transform: translateY(-8px) rotate(-45deg);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
 	.main-heading {
 		font-size: 2rem;
 		margin-top: 3.5rem;
@@ -252,10 +260,6 @@ img {
 
 	.header-img-mobile {
 		display: none;
-	}
-
-	.toggle-btn {
-		right: 3.625rem;
 	}
 }
 
@@ -308,7 +312,7 @@ img {
 		margin-right: 1.5rem;
 	}
 
-	.footer-group-1 {
+	.footer-group-one {
 		text-align: left;
 	}
 

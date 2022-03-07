@@ -21,6 +21,10 @@ img {
   font-size: 1.8rem;
   margin-top: 2rem; }
 
+.brand-title a {
+  color: white;
+  text-decoration: none; }
+
 .container {
   margin: 0 auto;
   width: 85%;
@@ -42,10 +46,10 @@ img {
   display: flex;
   flex-direction: column;
   margin-top: 1.7rem;
-  gap: 1.3rem; }
+  gap: 20px; }
 
 .creation-imgs img {
-  transition: 0.5s;
+  transition: 0.4s;
   cursor: pointer; }
 
 .creation-imgs img:hover {
@@ -63,7 +67,7 @@ img {
 .flex {
   display: flex;
   flex-direction: column;
-  gap: 3em; }
+  gap: 40px; }
 
 .footer {
   background-color: black;
@@ -99,6 +103,9 @@ img {
   margin: 0 auto 0.7rem auto;
   width: 7.5rem; }
 
+.footer-social-links i {
+  color: white; }
+
 .header {
   margin-bottom: 5rem; }
 
@@ -110,28 +117,27 @@ img {
 .header-contents.active {
   background-color: black;
   min-height: 100vh;
-  position: absolute;
-  width: 100vw; }
+  position: absolute; }
 
 .header-img-desktop {
   display: none; }
 
 .img-text {
   background: rgba(0, 0, 0, 0.404);
-  bottom: 1rem;
+  bottom: 16px;
   color: white;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.5rem;
+  left: 16px;
+  max-width: 9rem;
   padding: 0.5rem;
-  position: absolute;
-  left: 1rem;
-  max-width: 9rem; }
+  position: absolute; }
 
 .main-heading {
   border: 2px solid white;
   color: white;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 300;
   margin-top: 9.5rem;
   padding: 0.6em; }
@@ -179,7 +185,7 @@ img {
   justify-content: space-between;
   height: 20px;
   position: absolute;
-  right: 1.5rem;
+  right: 7.5vw;
   top: 2.7rem;
   width: 30px; }
 
@@ -192,7 +198,7 @@ img {
 .toggle-btn.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg); }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .main-heading {
     font-size: 2rem;
     margin-top: 3.5rem;
@@ -200,9 +206,7 @@ img {
   .header-img-desktop {
     display: block; }
   .header-img-mobile {
-    display: none; }
-  .toggle-btn {
-    right: 3.625rem; } }
+    display: none; } }
 
 @media (min-width: 1024px) {
   .container-narrow p {
@@ -233,7 +237,7 @@ img {
     margin: 1rem 0 0 0; }
   .footer-link-item {
     margin-right: 1.5rem; }
-  .footer-group-1 {
+  .footer-group-one {
     text-align: left; }
   .footer-social-links {
     margin: 0.5rem 0 1.5rem auto; }
