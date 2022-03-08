@@ -152,23 +152,19 @@ img {
 
 .navbar-links {
   display: none; }
-
-.navbar-links a:hover {
-  text-decoration: underline 3px; }
-
-.navbar-links.active {
-  display: flex; }
-
-.navbar-links a {
-  color: white;
-  font-family: "Josefin Sans", sans-serif;
-  display: block;
-  padding: 1rem 0;
-  text-decoration: none; }
-
-.navbar-links ul {
-  list-style: none;
-  margin-top: 5rem; }
+  .navbar-links a {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    display: block;
+    padding: 1rem 0;
+    text-decoration: none; }
+    .navbar-links a:hover {
+      text-decoration: underline 3px; }
+  .navbar-links.active {
+    display: flex; }
+  .navbar-links ul {
+    list-style: none;
+    margin-top: 5rem; }
 
 .non-header.active {
   display: none; }
@@ -188,20 +184,17 @@ img {
   right: 7.5vw;
   top: 2.7rem;
   width: 30px; }
-
-.toggle-btn.active .bar:nth-child(2) {
-  opacity: 0; }
-
-.toggle-btn.active .bar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg); }
-
-.toggle-btn.active .bar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg); }
+  .toggle-btn.active .bar:nth-child(2) {
+    opacity: 0; }
+  .toggle-btn.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg); }
+  .toggle-btn.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg); }
 
 @media (min-width: 576px) {
   .main-heading {
     font-size: 2rem;
-    margin-top: 3.5rem;
+    margin-top: 5vw;
     max-width: 300px; }
   .header-img-desktop {
     display: block; }
