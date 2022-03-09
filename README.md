@@ -20,7 +20,9 @@
 
 ## About The Project
 
-This is a basic landing homepage for a mock company called Loop Studios. The idea and design comes from [Frontend Mentor](https://frontendmentor.io). The layout is responsive for desktop and mobile devices.
+This is a basic landing homepage for a mock company called Loop Studios. The layout is responsive for desktop and mobile devices. The idea and design comes from [Frontend Mentor](https://frontendmentor.io).
+
+Site Link (hosted via Netlify): [Loop Studios Site](https://tender-swartz-d8ff5e.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
