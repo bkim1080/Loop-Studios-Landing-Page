@@ -4,7 +4,7 @@ const headerContents = document.querySelector(".header-contents");
 const mainHeading = document.querySelector(".main-heading");
 const nonHeaderSection = document.querySelector(".non-header");
 
-toggleBtn.addEventListener("click", () => {
+toggleBtn.addEventListener("click", function () {
 	navbarLinks.classList.toggle("active");
 	headerContents.classList.toggle("active");
 	mainHeading.classList.toggle("active");
