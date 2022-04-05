@@ -20,7 +20,7 @@
 
 ## About The Project
 
-This is a basic landing page for a fictional company called Loop Studios. The layout is responsive for desktop and mobile devices. It has a collapsible navigation menu.
+This is a single-page landing page for a fictional company called Loop Studios. The layout is responsive for desktop and mobile devices. It includes a collapsible navigation menu at mobile device screen sizes.
 
 Website Link (hosted via Netlify): [Loop Studios Website](https://jovial-ardinghelli-c3639d.netlify.app)
 
@@ -29,7 +29,7 @@ Website Link (hosted via Netlify): [Loop Studios Website](https://jovial-ardingh
 ### Built With
 
 -   HTML
--   CSS (SASS)
+-   CSS (SCSS)
 -   JavaScript
 
 <p align="right">(<a href="#top">back to top</a>)</p>
